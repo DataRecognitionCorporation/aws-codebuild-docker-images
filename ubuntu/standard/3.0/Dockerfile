@@ -565,9 +565,9 @@ RUN set -ex \
 
 RUN set -ex \
    && apt-get install -y openssl \
-   && curl -o stunnel-5.55.tar.gz https://www.stunnel.org/downloads/stunnel-5.55.tar.gz \
-   && tar xvfz stunnel-5.55.tar.gz \
-   && cd stunnel-5.55 \
+   && curl -o stunnel-5.56.tar.gz https://www.stunnel.org/downloads/stunnel-5.56.tar.gz \
+   && tar xvfz stunnel-5.56.tar.gz \
+   && cd stunnel-5.56 \
    && ./configure \
    && make \
    && make install \
